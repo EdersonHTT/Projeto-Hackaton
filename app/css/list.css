@@ -54,25 +54,31 @@ main form {
 
 main div {
     display:  flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    padding-left: 50px;
 }
 
 main input {
     width: 60px;
     height: 60px;
+    margin-right: 20px;
 }
 
 main #itensEs {
     flex-direction: column;
-    width: 90%;
+    width: 70%;
     margin-top: 30px;
     border-top: 2px solid rgb(50, 50, 50);
     align-self: center;
     padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-main #itensEs input {
+main #itensEs textarea {
     font-size: 50px;
+    height: auto;
 }
 
 main #Confirm {
